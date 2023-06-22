@@ -7,15 +7,15 @@ h1, h2 {
     text-align: center;
 }
 
-img {
-    height: auto;
-    width: 300px;
-    box-shadow: -5px -5px yellow;
+.container-1 {
+    display: flex;
 }
 
-.column-1 {
-    margin: 95px;
-    /* creates column with images */
-    display: grid;
-    margin: 0px 355px 30px 355px;
+.container-1 div {
+    flex: 1;
+}
+
+img {
+    height: 200px;
+    width: 200px;
 }
